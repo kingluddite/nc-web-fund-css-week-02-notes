@@ -1,0 +1,81 @@
+/* Header Styles */
+header h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
+/* Article Styles */
+article {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Read More Button */
+a.read-more {
+  display: inline-block;
+  background-color: #fca311;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/* Aside Styles */
+aside h3 {
+  font-size: 20px;
+  color: #0077b6;
+}
+
+/* Footer Styles */
+footer p {
+  text-align: center;
+  color: #999;
+}
+
+/* Specific Element Selector */
+article:first-child {
+  border-color: #ff5722;
+}
+
+/* Attribute Selector */
+a[href^="http"] {
+  color: #e63946;
+}
+
+/* Pseudo-Class Selector */
+nav ul li:last-child a {
+  font-weight: bold;
+}
+
+/* Descendant Selector */
+main article p {
+  font-style: italic;
+}
+
+/* Child Selector */
+aside > ul > li {
+  margin-left: 10px;
+}
