@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID vs Class Selector</title>
+  <link rel="stylesheet" type="text/css" href="./assest/css/styles.css">
+</head>
+
+<body>
+    <section>
+        <h1 id="main-title">Using ID and Class Selectors in CSS</h1>
+        <p>We apply styles to the element with an <code>id</code> attribute of "main-title" using the ID selector (<code>#main-title</code>) in the CSS.</p>
+        <p>ID selectors are unique; they should only be used for one element on a page because an ID must be unique within an HTML document. This makes ID selectors very specific and useful for styling a specific element that should stand out.</p>
+    </section>
+
+    <section>
+        <h2>When to Use ID vs. Class Selectors:</h2>
+        <ul>
+            <li>
+                <h3>Use ID selectors when:</h3>
+                <ul>
+                    <li>You want to apply unique styles to a single element on a page.</li>
+                    <li>You have a specific, unique element like a header or a main content section.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Use class selectors when:</h3>
+                <ul>
+                    <li>You want to apply styles to multiple elements with similar characteristics (e.g., all buttons, all highlighted text).</li>
+                    <li>You want to maintain a consistent design pattern throughout your website.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>In general, it's recommended to use class selectors more often than ID selectors because they promote reusability and maintainability of your styles. Overusing ID selectors can lead to specificity issues in your CSS, making it harder to manage and maintain your stylesheets. Reserve ID selectors for elements that truly require unique styling.</p>
+    </section>
+</body>
+</html>

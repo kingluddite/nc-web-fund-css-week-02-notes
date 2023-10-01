@@ -1,0 +1,41 @@
+/* Apply styles to the header row */
+.table-header {
+  background-color: #333;
+  color: white;
+}
+
+/* Apply styles to regular rows */
+.team-row {
+  background-color: #f2f2f2;
+}
+
+/* Style table cells */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Highlight the Philadelphia Phillies row */
+.team-row.phillies {
+  background-color: #ffcc00;
+  font-weight: bold;
+}
+
+/* Highlight the New York Yankees row */
+.team-row.yankees {
+  background-color: #0c2340;
+  color: white;
+}
+
+/* Highlight the Boston Red Sox row */
+.team-row.red-sox {
+  background-color: #bd3039;
+  color: white;
+}
