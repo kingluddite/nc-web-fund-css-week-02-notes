@@ -1,0 +1,24 @@
+{
+  "name": "nc-web-fund-css-week-02-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingluddite/nc-web-fund-css-week-02-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingluddite/nc-web-fund-css-week-02-notes/issues"
+  },
+  "homepage": "https://github.com/kingluddite/nc-web-fund-css-week-02-notes#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
